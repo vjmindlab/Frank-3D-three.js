@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  border: none;
+}
+#container {
+  border: none;
+  margin: 0;
+  width: 100vw;
+}
+#container_load {
+  background-color: #4c546b;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  outline: none;
+  transition: opacity 1.3s;
+  -webkit-transition: opacity 1.3s;
+  pointer-events: none;
+}
+#loader-progress-wrapper {
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 10px;
+  background: #1b1b1d;
+  border: 1px solid rgb(88, 88, 88);
+}
+#loader-progress-progress {
+  border-radius: 20px;
+  top: 0;
+  width: 0;
+  height: 10px;
+  background: #ed1b34;
+  border: none;
+}
+#progresspercent {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  pointer-events: none;
+}
